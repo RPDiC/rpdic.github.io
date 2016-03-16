@@ -12,12 +12,14 @@ ul {
 } 
 
 ul:after {
+	content: "";
     	display: inline-block;
     	width: 100%;
 }
 
 li {
     float: left;
+    display: in-line;
 }
 
 li a {
