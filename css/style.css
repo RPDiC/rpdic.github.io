@@ -8,6 +8,7 @@ ul {
 	padding: 0;
     overflow: hidden;
     background-color: #333;
+    text-align: justify;
 } 
 
 li {
@@ -30,7 +31,6 @@ li a:hover {
 .menu {
 	color: black;
 	margin-center;
-	text-align: justify;
 }
 
 p {
