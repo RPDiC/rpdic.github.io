@@ -8,7 +8,13 @@ ul {
 	padding: 0;
     overflow: hidden;
     background-color: #333;
+    text-align: justify;
 } 
+
+ul:after {
+    	display: inline-block;
+    	width: 100%;
+}
 
 li {
     float: left;
@@ -30,16 +36,6 @@ li a:hover {
 .menu {
 	color: black;
 	margin: center;
-	text-align: justify;
-}
-
-.menu li {
-	display: inline	
-}
-
-.menu .stretch {
-    	display: inline-block;
-    	width: 100%;
 }
 
 p {
