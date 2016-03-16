@@ -18,7 +18,6 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    text-align: justify;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -31,6 +30,7 @@ li a:hover {
 .menu {
 	color: black;
 	margin-center;
+	text-align: justify;
 }
 
 p {
