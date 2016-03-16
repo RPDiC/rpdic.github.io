@@ -30,14 +30,22 @@ li a:hover {
 .menu {
 	color: black;
 	margin: center;
-	display: flex;
-	justify-content: space-between;
+	text-align: justify;
 }
 
+.menu li {
+	display: inline	
+}
+
+.menu .stretch {
+    	display: inline-block;
+    	width: 100%;
+}
 
 p {
 	color: #111;
 	text-align: center;
 	font-size: 300%;
+	font-family: "Ariel";
 }
 
