@@ -31,3 +31,9 @@ li a:hover {
 	color: black;
 	margin-center;
 }
+
+p {
+	color: #111;
+	text-align: center;
+}
+}
