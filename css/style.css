@@ -12,7 +12,6 @@ ul {
 } 
 
 ul:after {
-	content: "";
     	display: inline-block;
     	width: 100%;
 }
