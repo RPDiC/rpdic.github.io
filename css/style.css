@@ -30,7 +30,10 @@ li a:hover {
 .menu {
 	color: black;
 	margin: center;
+	display: flex;
+	justify-content: space-between;
 }
+
 
 p {
 	color: #111;
