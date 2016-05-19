@@ -37,6 +37,7 @@ li a:hover {
 .menu {
 	color: black;
 	margin: center;
+	width: 100%;
 }
 
 p {
