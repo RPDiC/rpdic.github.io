@@ -8,10 +8,24 @@ ul {
 	padding: 0;
     overflow: hidden;
     background-color: #333;
+<<<<<<< HEAD
 } 
 
 li {
     float: left;
+=======
+    text-align: justify;
+} 
+
+ul:after {
+    	display: inline-block;
+    	width: 100%;
+}
+
+li {
+    float: left;
+    display: in-line;
+>>>>>>> b48e99278c2badd3c0650eef60b895d048b8a7cc
 }
 
 li a {
@@ -29,6 +43,7 @@ li a:hover {
 
 .menu {
 	color: black;
+<<<<<<< HEAD
 	margin-center;
 }
 
@@ -41,3 +56,22 @@ li a:hover {
     box-shadow: 2px 2px 2px #888888;
     width: 400px;
 }
+=======
+	margin: center;
+	width: 100%;
+}
+
+.menu li {
+	width: 20%;
+	text-align: center;
+}
+
+p {
+	color: #111;
+	text-align: center;
+	font-size: 300%;
+	font-style: italic;
+	font-family: "Ariel";
+}
+
+>>>>>>> b48e99278c2badd3c0650eef60b895d048b8a7cc
