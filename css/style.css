@@ -8,13 +8,7 @@ ul {
 	padding: 0;
     overflow: hidden;
     background-color: #333;
-<<<<<<< HEAD
-} 
 
-li {
-    float: left;
-=======
-    text-align: justify;
 } 
 
 ul:after {
@@ -25,7 +19,7 @@ ul:after {
 li {
     float: left;
     display: in-line;
->>>>>>> b48e99278c2badd3c0650eef60b895d048b8a7cc
+    text-align: justify;
 }
 
 li a {
@@ -43,8 +37,8 @@ li a:hover {
 
 .menu {
 	color: black;
-<<<<<<< HEAD
 	margin-center;
+    width: 100%;
 }
 
 #jumbotron {
@@ -55,10 +49,6 @@ li a:hover {
     border-radius: 10px;
     box-shadow: 2px 2px 2px #888888;
     width: 400px;
-}
-=======
-	margin: center;
-	width: 100%;
 }
 
 .menu li {
@@ -74,4 +64,3 @@ p {
 	font-family: "Ariel";
 }
 
->>>>>>> b48e99278c2badd3c0650eef60b895d048b8a7cc
