@@ -10,18 +10,25 @@ function changeJumbo(id1, content1, id2, content2, id3, content3) {
 }*/
 
 var main = function() {
-  var baseURL = "https://rpdic.github.io/";
-  //load content for about tab
-  $('#about').load(baseURL+'home', function() {
-    $('#myNav').tab(); //initialize tabs 
+  $('#about_tab').click(function() {
+    $('.jumbotron').children().hide();
+    $('.about').show();
   });
-  $('#myNav').bind('show', function(func) {
-    var pattern=/#.+gi 
-    var contentID = func.target.toString().match(pattern)[0];
-    
-    $(contentID).load(baseURL+contentID.replace('#',''), function(){
-      $('#myNav').tab();
-    });
+  $('#music_tab').click(function() {
+    $('.jumbotron').children().hide();
+    $('.music').show();
+  });
+  $('#portfolio_tab').click(function() {
+    $('.jumbotron').children().hide();
+    $('.portfolio').show();
+  });
+  $('#cv_tab').click(function() {
+    $('.jumbotron').children().hide();
+    $('.cv').show();
+  });
+  $('#contact_tab').click(function() {
+    $('.jumbotron').children().hide();
+    $('.contact').show();
   });
 };
 
