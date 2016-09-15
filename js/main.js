@@ -10,24 +10,23 @@ function changeJumbo(id1, content1, id2, content2, id3, content3) {
 }*/
 
 var main = function() {
-  $('#about_tab').click(function() {
+  $('#myNav').on('click','.about',(function() {
     $('.jumbotron').children().hide();
-    $('.music').hide();
     $('.about').show();
   });
-  $('#music_tab').click(function() {
+  $('#myNav').on('click','.music',(function() {
     $('.jumbotron').children().hide();
     $('.music').show();
   });
-  $('#portfolio_tab').click(function() {
+  $('#myNav').on('click','.portfolio',(function() {
     $('.jumbotron').children().hide();
     $('.portfolio').show();
   });
-  $('#cv_tab').click(function() {
+  $('#myNav').on('click','.cv',(function() {
     $('.jumbotron').children().hide();
     $('.cv').show();
   });
-  $('#contact_tab').click(function() {
+  $('#myNav').on('click','.contact'(function() {
     $('.jumbotron').children().hide();
     $('.contact').show();
   });
