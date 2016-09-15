@@ -9,7 +9,7 @@ function changeJumbo(id1, content1, id2, content2, id3, content3) {
 
 }*/
 
-$(function() {
+var main = function() {
   var baseURL = "https://rpdic.github.io/";
   //load content for about tab
   $('#about').load(baseURL+'home', function() {
@@ -23,4 +23,6 @@ $(function() {
       $('#myNav').tab();
     });
   });
-});
+};
+
+$(document).ready(main);
