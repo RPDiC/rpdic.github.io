@@ -1,6 +1,6 @@
 var main = function() {
   $('#myNav').on('click','.about',(function() {
-    
+    console.log('clicked about tab'); 
     $('.content').hide();
     $('.about').show();
   });
