@@ -12,6 +12,7 @@ function changeJumbo(id1, content1, id2, content2, id3, content3) {
 var main = function() {
   $('#about_tab').click(function() {
     $('.jumbotron').children().hide();
+    $('.music').hide();
     $('.about').show();
   });
   $('#music_tab').click(function() {
